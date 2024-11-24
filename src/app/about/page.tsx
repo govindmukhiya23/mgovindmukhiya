@@ -36,43 +36,42 @@ const About: NextPage = () => {
               {/* Personal Info */}
               <div className="row">
                 <div className="personal-info padd-15">
-                  <div className="row">
-                    {[
-                      { label: "Email", value: "govindmukhiya9963@email.com" },
-                      { label: "Degree", value: "Btech" },
-                      { label: "Phone", value: "+91 9121438662" },
-                      { label: "City", value: "Hyderabad" },
-                      { label: "Entry level", value: "Yes" },
-                    ].map((info, index) => (
-                      <div key={index} className="info-item padd-15">
-                        <p>
-                          {info.label}: <span>{info.value}</span>
-                        </p>
+                  {[
+                    { label: "Email", value: "govindmukhiya9963@email.com" },
+                    { label: "Degree", value: "Btech" },
+                    { label: "Phone", value: "+91 9121438662" },
+                    { label: "City", value: "Hyderabad" },
+                    { label: "Entry level", value: "Yes" },
+                  ].map((info, index) => (
+                    <div key={index} className="info-item padd-15">
+                      <p>
+                        {info.label}: <span>{info.value}</span>
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Skills */}
+              <div className="skills padd-15">
+                <div className="row">
+                  {[
+                    { skill: "HTML5", percent: 80 },
+                    { skill: "CSS3", percent: 60 },
+                    { skill: "JavaScript", percent: 50 },
+                    { skill: "Bootstrap", percent: 70 },
+                  ].map((skill, index) => (
+                    <div key={index} className="skill-item padd-15">
+                      <h5>{skill.skill}</h5>
+                      <div className="progress">
+                        <div
+                          className="progress-in"
+                          style={{ width: `${skill.percent}%` }}
+                        />
+                        <div className="skill-percent">{skill.percent}%</div>
                       </div>
-                    ))}
-                  </div>
-                  
-                {/* Skills */}
-                <div className="skills padd-15">
-                  <div className="row">
-                    {[
-                      { skill: "HTML5", percent: 80 },
-                      { skill: "CSS3", percent: 60 },
-                      { skill: "JavaScript", percent: 50 },
-                      { skill: "Bootstrap", percent: 70 },
-                    ].map((skill, index) => (
-                      <div key={index} className="skill-item padd-15">
-                        <h5>{skill.skill}</h5>
-                        <div className="progress">
-                          <div
-                            className="progress-in"
-                            style={{ width: `${skill.percent}%` }}
-                          />
-                          <div className="skill-percent">{skill.percent}%</div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
+                    </div>
+                  ))}
                 </div>
               </div>
 
