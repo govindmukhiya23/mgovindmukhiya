@@ -52,7 +52,6 @@ const About: NextPage = () => {
                     ))}
                   </div>
                   
-
                 {/* Skills */}
                 <div className="skills padd-15">
                   <div className="row">
