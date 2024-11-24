@@ -29,6 +29,8 @@ export default async function Home() {
               <a href="https://www.linkedin.com/in/m-govind-mukhiya-453a59302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                 <i className="fa fa-linkedin" />
               </a>
+              <a href="https://www.snapchat.com/add/i.govinduu?share_id=ixdiAvKpx_M&locale=en-GB" target="_blank">
+               <i className="fa fa-snapchat"></i></a>
             </div>
           </div>
         </div>

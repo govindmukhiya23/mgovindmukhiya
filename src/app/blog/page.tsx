@@ -1,4 +1,4 @@
-import type { NextPage } from "next";
+import { NextPage } from "next";
 
 const Blog: NextPage = () => {
   return (
@@ -15,15 +15,17 @@ const Blog: NextPage = () => {
             <div className="blog-item padd-15">
               <div className="blog-item-inner shadow-dark">
                 <div className="blog-img">
-                  <img src="/imgs/blog/1.jpg" alt="Responsive Web Design" />
+                  <img
+                    src="/imgs/blog/1.jpg"
+                    alt="Responsive Web Design"
+                    loading="lazy"
+                  />
                   <div className="blog-date">June 4, 2020</div>
                 </div>
                 <div className="blog-info">
-                  <h4 className="blog-title">
-                    Mastering Responsive Web Design
-                  </h4>
+                  <h4 className="blog-title">Mastering Responsive Web Design</h4>
                   <p className="blog-description">
-                    In today digital landscape, responsive web design is not
+                    In today’s digital landscape, responsive web design is not
                     just a trend; it is a necessity. Explore the principles and
                     techniques behind creating websites that adapt seamlessly to
                     various devices and screen sizes.
@@ -39,7 +41,11 @@ const Blog: NextPage = () => {
             <div className="blog-item padd-15">
               <div className="blog-item-inner shadow-dark">
                 <div className="blog-img">
-                  <img src="/imgs/blog/2.jpg" alt="Creative Slideshow" />
+                  <img
+                    src="/imgs/blog/2.jpg"
+                    alt="Creative Slideshow"
+                    loading="lazy"
+                  />
                   <div className="blog-date">June 4, 2020</div>
                 </div>
                 <div className="blog-info">
@@ -63,7 +69,11 @@ const Blog: NextPage = () => {
             <div className="blog-item padd-15">
               <div className="blog-item-inner shadow-dark">
                 <div className="blog-img">
-                  <img src="/imgs/blog/3.jpg" alt="Image Gallery Lightbox" />
+                  <img
+                    src="/imgs/blog/3.jpg"
+                    alt="Image Gallery Lightbox"
+                    loading="lazy"
+                  />
                   <div className="blog-date">June 4, 2020</div>
                 </div>
                 <div className="blog-info">
