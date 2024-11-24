@@ -51,22 +51,7 @@ const About: NextPage = () => {
                       </div>
                     ))}
                   </div>
-                  <div className="row">
-                    <div className="buttons padd-15">
-                      <a
-                        href="/assets/docs/resume.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn"
-                      >
-                        Download CV
-                      </a>
-                      <a href="#contact" className="btn hire-me">
-                        Hire Me
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                 
 
                 {/* Skills */}
                 <div className="skills padd-15">
